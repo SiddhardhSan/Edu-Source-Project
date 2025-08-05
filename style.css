@@ -1,0 +1,113 @@
+/* 
+h1,h2,h3,h5,h6 {
+    color:#5E936C;
+}
+body {
+    background-color:#3E5F44;
+}
+ul {
+    color:#93DA97
+}
+table {
+    color:aqua
+} */
+*{
+    box-sizing:border-box;
+}
+/* header{
+    height: 60px;
+    width:100vw;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color:aquamarine;
+} */
+body{
+    background-color:#FF9912;
+}
+h1,h2,h3,h4,h5,h6,caption{
+    color:#1B3C53;
+    font-family:Bebas Neue;
+    font-size: 25px;
+    line-height:1.7;
+    text-decoration: underline;
+    
+}
+ul,p,table,form{
+    color:#456882;
+}
+a{
+    text-decoration:none;
+}
+
+*{
+    text-align: left;
+
+}
+#nav {
+    ul{
+        text-decoration:none;
+    }
+}
+p,ul,table{
+        font-weight:bold;
+        font-size:16px;
+
+        font-family:Arial, Helvetica, sans-serif;
+}
+#login{
+        font-weight:bold;
+        font-size:16px;
+
+        font-family:Arial, Helvetica, sans-serif;}
+/* button{
+    padding:3px 6px;
+
+    background-color:#456882;
+    color:#F9F3EF;
+    font-size:17px;
+    font-weight:700;
+    border: 4px dashed #1B3C53;
+    border-radius:7px;
+    height:8px;
+    width:14px
+
+} */
+
+button{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    font-family: arial;
+    color: #FF9912;
+    background-color: #1B3C53;
+    box-sizing: border-box;
+    border: 3px solid #ffff;
+    padding: 6px 11px;
+    border-radius: 50%;
+}
+#nav{
+    width:100vw;
+    position:fixed;
+    height:85px;
+    top:0px;
+    background-color: #000000;
+    li{
+        display: inline-block;
+        padding :5px;
+        border:whitesmoke solid 2px;
+        background-color: aquamarine;
+        border-radius:9px;
+        margin-right:95px;
+        margin-top: 15px;
+        color: black;
+
+    }
+}
+header{
+    margin-top:  85px; ;
+}
+#bd{
+    background-image: url(grads_bg.avif);
+    background-position: center;
+    background-attachment: fixed;
+}
