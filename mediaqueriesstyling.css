@@ -1,0 +1,22 @@
+div{
+    height:150px;
+    width:150px;
+    background-color: yellow;
+    /* margin:5px; */
+    display:inline-block;
+}
+@media(min-width:650px)and (max-width:800px){
+    div{
+        background-color:aqua;
+        height:250px;
+        width:250px;
+    }
+}
+@media(min-width:800px)
+{ 
+    div{
+        background-color:black;
+        height:400px;
+        width:400px
+    }
+}
