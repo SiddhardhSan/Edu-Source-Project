@@ -1,0 +1,45 @@
+#b9{
+        /* display: inline-block; */
+    height: 3000px;
+    width: 1000px;
+    background-color: aquamarine;
+}
+#b1,#b2,#b3,#b4{
+    display:inline-block;
+    height: 100px;px;
+    width:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+
+    
+}
+#b1{
+    background-color:black;
+    /* /* position:absolute; */
+    position: fixed;
+    /* position: relative;
+    bottom:20px; */
+    top:40px;
+    left:40px;
+    
+    
+
+
+}
+#b2{
+    background-color: blueviolet;
+    /* position: sticky;
+    top:0px;   */
+    position:absolute;
+    top:40px;
+
+
+
+
+}
+#b3{
+    background-color: darkgreen;
+}
+#b4{
+    background-color: crimson;
+}

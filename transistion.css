@@ -1,12 +1,16 @@
 /* Understanding transistions */
 div{
-    height:100ox;
+    height:100px;
     width:100px;
-    margin:10px;
-    transition: all 2s ease-in;
+    /* margin:60px; */
+    transition: all 1s ease-in;
+
+    
 }
 div:hover{
     background-color:aqua;
-    font-size: 35px;
-
+    font-size: 35px;    
+    /* transform:scale(2); */
+    transform:translateX(50px);
+    
 }
